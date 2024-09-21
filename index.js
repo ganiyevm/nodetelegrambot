@@ -4,6 +4,7 @@ require('dotenv').config() // O'z tokeningizni kiriting
 const token=process.env.token
 const bot = new TelegramBot(token, { polling: true });
 
+// Вы можете добавить больше фильмов
 const movies = [
   {
     title: '🎥 «Жить жизнь», сезон 20 (2024)',
