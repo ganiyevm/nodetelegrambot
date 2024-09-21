@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs')
 require('dotenv').config() // O'z tokeningizni kiriting
-const tBOT_TOKEN=process.env.BOT_TOKEN
+const BOT_TOKEN=process.env.BOT_TOKEN
 const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 
 // Вы можете добавить больше фильмов
